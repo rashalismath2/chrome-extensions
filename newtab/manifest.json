@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "New tab",
+    "version": "1.0.0",
+    "icons": {
+        "48": "icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "New tab Extention",
+        "default_popup": "index.html"
+    },
+   
+    "chrome_url_overrides":{
+        "newtab":"newtab.html"
+    }
+}
